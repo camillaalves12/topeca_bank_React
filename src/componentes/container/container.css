@@ -1,0 +1,48 @@
+body {
+   min-height: 100vh;
+   background-color: #4b006b;
+   background-image: linear-gradient(168deg, #4b006b 0%, #C850C0 62%);
+}
+
+.containerItens {
+   display: flex;
+   align-items: center;
+   margin: 1rem;
+   justify-content: center;
+   gap: 5rem;
+}
+
+.containerItens .imgLogo{
+   max-width:15rem;
+   width: auto;
+   height: auto;
+   box-shadow: 26px 26px 68px -16px rgba(0,0,0,0.66);
+   -webkit-box-shadow: 26px 26px 68px -16px rgba(0,0,0,0.66);
+   -moz-box-shadow: 26px 26px 68px -16px rgba(0,0,0,0.66);
+}
+
+.containerItensText {
+   padding: 1rem;
+   
+}
+
+.containerItensText p{
+   padding: 0.2rem;
+   color: #fff;
+   font-size: 1.1rem;
+   text-align: justify;
+
+}
+
+.textInicial {
+   width: 55rem;
+   line-height: 1.5rem;
+}
+
+.title {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+   color: #ffffff;
+   text-align: center;
+}
+

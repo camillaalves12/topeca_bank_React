@@ -1,0 +1,28 @@
+.headerNav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #4b006b;
+   padding: 0.6rem;
+   color: #fff;
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+.NavItens {
+   display: flex;
+   gap: 1.5rem;
+   align-items: center;
+   font-size: 0.9rem;
+   
+}
+
+.logoNav {
+   font-size: 1.8rem;
+}
+
+.navItensItem:hover {
+   border-bottom: 1px solid #cdcdcd;
+   font-weight: 600;
+
+}
