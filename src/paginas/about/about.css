@@ -1,0 +1,20 @@
+.containerItensAbout {
+   display: flex;
+   margin: 1rem;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 2rem;
+}
+
+
+.containerItensAbout img{
+   max-width: 15rem;
+   width: auto;
+   height: auto;
+}
+
+.textSobre {
+   width: 75rem;
+   line-height: 1.7rem;
+}

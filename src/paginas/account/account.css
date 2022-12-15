@@ -1,0 +1,104 @@
+.titleTopeka {
+   height: 54.19px;
+   text-align: center;
+   padding-top: 2rem;
+ }
+
+.bodyConta{
+   margin-top: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ 
+
+ .criarConta {
+   display: flex;
+   gap: 8rem;
+   align-items: center
+ }
+ 
+ .titleContaTopeka{
+  font-size: 2.5rem;
+ }
+ .titleConta {
+   color: #FFFFFF;
+   font-weight: 600;
+   font-size: 3rem;
+   width: 500px;
+ }
+ 
+ .inputsConta {
+   width: 22rem;
+   height: 3rem;
+   outline: none;
+   background: none;
+   border: none;
+   border-bottom: 1px solid #cdcdcd;
+   color: #FFFFFF;
+ }
+ 
+ input:hover {
+   border-bottom: 1px solid #fff;
+ 
+ }
+ 
+ input::placeholder {
+   color: #fafafa;
+   padding: 0.5rem;
+ }
+ 
+ 
+ 
+ 
+ .formCriarConta {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+    /* padding: 2rem;
+    box-shadow: -5px 7px 64px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -5px 7px 64px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 7px 64px 0px rgba(0,0,0,0.75);
+      */
+ }
+ 
+ .checkLabel {
+   margin-top: 1rem;
+   width: 22rem;
+ }
+ 
+ .labelText {
+   margin-left: 0.2rem ;
+ }
+ 
+ .boldText {
+   cursor: pointer;
+   color: #4b006b;
+ }
+ 
+ .btnEnviar {
+   padding: 0.5rem;
+   background: #4b006b;
+   cursor: pointer;
+   color: #fff;
+   font-size: 1.1rem;
+   border: none;
+   border-radius: 4px;
+   font-weight: 600;
+   margin-top: 1rem;
+ }
+ 
+ .btnEnviar:hover {
+     background: #70029f;
+ }
+ 
+
+  /* para tirar as setas do input number */
+  input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+  }
+  input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+  
+  }
