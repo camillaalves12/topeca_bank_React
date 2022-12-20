@@ -91,6 +91,16 @@
  .btnEnviar:hover {
      background: #70029f;
  }
+
+ .register-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
  
 
   /* para tirar as setas do input number */
